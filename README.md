@@ -34,7 +34,7 @@ Para testar ou implementar esta aplicação na rotina da sua equipe, siga os pas
 
 Acesse a pasta do projeto:
 
-cd diario-de-bordo
+https://github.com/gpcunha/diario-de-bordo
 
 
 Execute a aplicação:
