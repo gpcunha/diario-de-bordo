@@ -42,7 +42,10 @@ Após baixar o arquivo do repositório, basta abrir o arquivo index.html diretam
 
 📸 Demonstração
 
-(Sugestão: tire um print bem bonito da tela principal do seu sistema, suba a imagem no repositório e coloque o link aqui para chamar ainda mais atenção!)
+<img width="888" height="722" alt="imagem-1" src="https://github.com/user-attachments/assets/c91e5d70-53f2-4c3f-a099-7c7eec85c1d1" />
+<img width="889" height="658" alt="imagem-2" src="https://github.com/user-attachments/assets/340cc069-c85e-4b85-bf63-76a84f68ede8" />
+
+
 
 👨‍💻 Autor
 
