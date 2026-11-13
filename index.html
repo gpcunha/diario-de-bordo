@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Diário de bordo</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <main>
+      <h1>Diário de Bordo</h1>
+      <p class="sub">Registre atividades e ocorrências. Os dados são salvos no arquivo JSON e sincronizados.</p>
+      <div class="file-status" id="file-status">
+        <p>Arquivo JSON conectado: <span id="file-name">nenhum</span></p>
+        <p>Última sincronização: <span id="file-sync">nenhuma</span></p>
+      </div>
+      <form id="f" novalidate>
+        <div class="row">
+          <label>Seu nome
+            <input id="nome" autocomplete="name" placeholder="Nome completo" maxlength="80" required>
+          </label>
+          <label>Título
+            <input id="titulo" placeholder="Resumo do registro" maxlength="120" required>
+          </label>
+        </div>
+        <label>Descrição
+          <textarea id="desc" placeholder="O que foi feito ou o que aconteceu?" maxlength="2000" required></textarea>
+          <span class="hint">O horário é registrado automaticamente ao salvar.</span>
+        </label>
+        <p class="err" id="err" role="alert"></p>
+        <button class="primary" type="submit">Salvar registro</button>
+        <button id="btn-create" class="sec" type="button" title="Criar um novo arquivo JSON vazio">Criar novo arquivo</button>
+      </form>
+
+      <div class="tools">
+        <input id="q" type="search" placeholder="Buscar por título ou nome" aria-label="Buscar registros">
+        <button id="btn-connect" class="sec" type="button" title="Selecionar arquivo JSON local">Conectar Arquivo JSON</button>
+      </div>
+      <p class="count" id="count"></p>
+      <ul id="list"></ul>
+    </main>
+    <script src="js/main.js"></script>
+  </body>
+</html>
