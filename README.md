@@ -25,7 +25,7 @@ Consulta Rápida: Facilidade para localizar registros anteriores sem precisar fo
 
 Front-end: HTML5, CSS3, JavaScript
 
-Back-end: (JASOM)
+Back-end: (JASON)
 
 🚀 Como Baixar e Utilizar
 
